@@ -8,5 +8,5 @@ import com.cloud.model.Person;
 @Repository
 public interface PersonRepository extends CrudRepository<Person, Long> {
 
-	Person findByFirstName(String name);
+	Person findByEmailAddress(String email);
 }
